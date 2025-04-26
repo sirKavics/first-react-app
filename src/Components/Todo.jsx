@@ -1,10 +1,6 @@
 import "./Todo.css";
 
 function Todo({title, onTodoDelete}) {
-  function deleteTodo() {
-    console.log('deleteTodo()', title)
-  }
-
   return (
     <div className="todo">
       <p>{title}</p>

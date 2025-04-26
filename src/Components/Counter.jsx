@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 function Counter() {
   const [cart, setCart] = useState({
-    item: "apples",
+    item: "",
     quantity: 0,
   });
 

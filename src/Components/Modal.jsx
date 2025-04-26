@@ -6,11 +6,8 @@ function Modal({ title, cancelModal, confirmModal }) {
       <div className="modal">
         <p className="modal__title">{title}</p>
         <div className="modal__buttons">
-          <button
-            className="btn btn__cancel"
-            onClick={cancelModal}
-          >
-            Cancel
+          <button className="btn btn__cancel" onClick={cancelModal}>
+            Cancel 
           </button>
           <button className="btn" onClick={confirmModal}>
             Confirm
