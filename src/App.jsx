@@ -5,6 +5,7 @@ import About from './Pages/About.jsx';
 import Contact from './Pages/Contact';
 import Nav from './Components/Nav.jsx';
 import Users from './Pages/Users.jsx';
+import CrashCourse from './Pages/CrashCourse.jsx';
 
 function App() {
   
@@ -13,7 +14,10 @@ function App() {
       <Router>
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/CrashCourse" element={<CrashCourse />} />
           <Route path="/users/:username" element={<Users />}/>
         </Routes>
       </Router>

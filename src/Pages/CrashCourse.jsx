@@ -1,7 +1,7 @@
-import Todo from "./Components/Todo.jsx";
-import Title from "./Components/Title.jsx";
-import Modal from "./Components/Modal.jsx";
-import Counter from "./Components/Counter.jsx";
+import Todo from "../Components/Todo.jsx";
+import Title from "../Components/Title.jsx";
+import Modal from "../Components/Modal.jsx";
+import Counter from "../Components/Counter.jsx";
 import React, { useState, useEffect } from "react";
 
 function CrashCourse() {
